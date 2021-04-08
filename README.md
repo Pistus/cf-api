@@ -1,25 +1,19 @@
-## Router
+# Getting Started
 
-Selects the logic to respond to requests based on the `request` method and URL. Can be used with REST APIs or apps that require basic routing logic.
+This project was bootstrapped with [imba-base-template](https://github.com/imba/imba-base-template).
 
-[`index.js`](https://github.com/cloudflare/worker-template-router/blob/master/index.js) is the content of the Workers script.
+## Available Scripts
 
-#### Wrangler
+In the project directory, you can run:
 
-You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on this template by running the following command from your terminal:
+### `npm start`
 
-```
-wrangler generate myapp https://github.com/cloudflare/worker-template-router
-```
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Before publishing your code you need to edit `wrangler.toml` file and add your Cloudflare `account_id` - more information about publishing your code can be found [in the documentation](https://workers.cloudflare.com/docs/quickstart/configuring-and-publishing/).
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-Once you are ready, you can publish your code by running the following command:
+### `npm run build`
 
-```
-wrangler publish
-```
-
-#### Serverless
-
-To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
+Builds the app for production to the `dist` folder.
