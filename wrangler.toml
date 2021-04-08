@@ -1,0 +1,7 @@
+name = "cf-api"
+type = "webpack"
+account_id  = "95a1f778160364ea560b7ee1dc21f08a"
+
+workers_dev = true
+route = ""
+zone_id = ""
